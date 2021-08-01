@@ -1,15 +1,7 @@
 import React, { Component } from "react";
 import {
   Card,
-  CardDeck,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  CardImg,
-  CardText,
-  CardFooter,
-  CardColumns,
-  Button,
+  CardDeck
 } from "react-bootstrap";
 import edukacija from "../images/edukacija.jpg";
 import edukacija1 from "../images/edukacija1.jpg";

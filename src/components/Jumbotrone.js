@@ -1,6 +1,5 @@
 import React from "react";
-import { Jumbotron, Container, Image } from "react-bootstrap";
-import jumpho from "../images/jumpho.jpg";
+import { Jumbotron } from "react-bootstrap";
 import './Jumbotrone.css';
 
 

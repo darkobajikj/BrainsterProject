@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Image, Container, Col, Row, Card } from "react-bootstrap";
+import { Button, Container, Col, Row} from "react-bootstrap";
 import './Nudimebut.css';
 import { IoMdPlanet, IoMdMicrophone } from "react-icons/io";
 import { GiSpeaker } from "react-icons/gi";

@@ -2,11 +2,7 @@ import {React, useState} from "react";
 import {
   Navbar,
   Nav,
-  NavItem,
-  NavDropdown,
-  MenuItem,
   Form,
-  FormControl,
   Button,
   Modal,
   Container
@@ -14,14 +10,15 @@ import {
 import { BsPlus } from "react-icons/bs";
 import brainster_space_logo from "../images/brainster_space_logo.svg";
 import "./Navigationbar.css";
-import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
+import { useHistory } from "react-router-dom";
 
 
 
 
 function Navigationbar() {
-
+  
+  const history = useHistory();
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -44,7 +41,7 @@ function Navigationbar() {
     <Nav className="m-auto">
     <Nav.Link
             className="lin text-uppercase ml-10"
-            href="eventspace"
+            onClick={()=> history.push("Eventspace")}
             style={{ color: "black" }}
           >
             Настани
@@ -58,21 +55,21 @@ function Navigationbar() {
           </Nav.Link>
           <Nav.Link
             className="lin text-uppercase"
-            href="/akademii "
+            onClick={()=> history.push("Akademii")}
             style={{ color: "black" }}
           >
             Академии
           </Nav.Link>
           <Nav.Link
             className="lin text-uppercase"
-            href="/eventspace "
+            onClick={()=> history.push("Eventspace")}
             style={{ color: "black" }}
           >
             Простор за настани
           </Nav.Link>
           <Nav.Link
             className="lin"
-            href="/partnerstva"
+            href=""
             style={{ color: "black" }}
           >
             Партнерства

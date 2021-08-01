@@ -1,31 +1,23 @@
 import React, { Component } from "react";
-import styled from 'styled-components';
+import {Container, Row, Col} from "react-bootstrap";
 
 
 class Pagenotfound extends Component {
   render() {
     return (
-      <ComponentNotFound className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="error">
+      <Container fluid="sm" style={{height: 324}}>
+        <Row>
+          <Col>
+            <div className="error text-center">
               <h1>Ops!</h1>
               <h2>Error 404 Page Not Found!</h2>
             </div>
-          </div>
-        </div>
-      </ComponentNotFound>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }
 
 export default Pagenotfound;
 
-const ComponentNotFound = styled.div`
-  .error {
-    padding: 40px 15px;
-    text-align: center;
-    margin-top:30px;
-    margin-bottom:31px
-  }
-`;

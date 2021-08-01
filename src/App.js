@@ -1,12 +1,11 @@
-import React, { Component, ReactFragment } from 'react';
+import React from 'react';
 import  Navigationbar  from './components/Navigationbar';
 import './App.css';
 import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 // import pages
 import Home from './components/pages/Home';

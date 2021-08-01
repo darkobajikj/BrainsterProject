@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Image, Container, Col, Row, Card } from "react-bootstrap";
+import { Image, Container, Col, Row } from "react-bootstrap";
 import gotvaci from "../images/gotvaci.jpg";
 import gosti from "../images/gosti.jpg";
 import baklava from "../images/baklava.jpg";
@@ -9,32 +9,35 @@ import "./Spacekitchen.css";
 class Spacekitchen extends Component {
   render() {
     return (
-      <Container fluid className="mt-20px">
+      <Container fluid className="mt-20px" >
             <Row>
-              <Col className="spaceco col-md-8 col-lg-7">
+              <Col className="spaceco" xs={6} md={4} lg={4} md={{ span: 1, offset: 1 }}>
               <Image
-              className="card1 rounded float-right mr-10px"
-              style={{ width: 370, height:400 }}
-              src={gotvaci}
-            />
-              <Image
-              className="card2 rounded float-right mr-10px"
+              className="card2 rounded float-left"
               style={{ width: 380, height: 200 }}
               src={gosti}
             />
-            <br/>
             <Image
-              className="card3 rounded float-right mr-10px"
+              className="card3 rounded float-left "
               style={{width: 190, height: 200 }}
               src={kolaci}
             />
             <Image
-              className="card4 rounded float-right mr-10px"
+              className="card4 rounded float-left "
               style={{ width: 190, height: 200 }}
               src={baklava}
             />
+            <Row>
+            <Col md={{ span: 2, offset: 2 }} md={4} xs={6}>
+            <Image
+              className="rounded"
+              style={{ width: 380, height:400 }}
+              src={gotvaci}
+            />
             </Col>
-              <Col className="spacecol col-md-8 col-lg-4">
+            </Row>
+            </Col>
+      <Col className="spacecol float-right" md={4} md={{ span: 3, offset: 3 }}>
                 <br />
                 <br />
                 <h2 className="spaceh">Space Kitchen</h2>
@@ -49,8 +52,8 @@ class Spacekitchen extends Component {
                   <br /> обезбедиме.
                 </p>
                 </Col>
-            </Row>
-          </Container>
+                </Row>
+            </Container>
     );
   }
 }

@@ -1,4 +1,4 @@
-import {React, useRef} from "react";
+import {React} from "react";
 import { Image, Container, Col, Row } from "react-bootstrap";
 import './Eventhostsec.css';
 import dsds from "../images/dsds.jpg"

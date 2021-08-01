@@ -1,5 +1,5 @@
-import {React, children, Component, useState} from "react";
-import { Button, Image, Container, Col, Row, AccordionContext, useAccordionToggle, Accordion, Card   } from "react-bootstrap";
+import {React, Component} from "react";
+import { Button, Image, Container, Col, Row   } from "react-bootstrap";
 import edukacija2 from "../images/edukacija1.jpg";
 import edukacija1 from "../images/edukacija2.jpg";
 import './Edukacijasec.css';

@@ -1,14 +1,7 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import {
   Card,
   CardDeck,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  CardImg,
-  CardText,
-  CardFooter,
-  CardColumns,
   Button,
   Modal,
   Form,

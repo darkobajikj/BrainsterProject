@@ -1,4 +1,4 @@
-import {React, useRef, } from "react";
+import { React } from "react";
 import { Button, Image, Container, Col, Row } from "react-bootstrap";
 import prostorzanastani from "../images/prostorzanastani.jpg";
 import "./Prnastani.css";

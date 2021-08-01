@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Image, Container, Row, Col } from "react-bootstrap";
+import { Image, Container, Row, Col } from "react-bootstrap";
 import akad from "../images/akad.jpg";
 import "./Akademiisec.css";
 

@@ -2,13 +2,6 @@ import React from "react";
 import {
   Card,
   CardDeck,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  CardImg,
-  CardText,
-  CardFooter,
-  CardColumns,
   Button,
 } from "react-bootstrap";
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
@@ -17,7 +10,6 @@ import HristijanNosecka from "../images/HristijanNosecka.jpg";
 import instruktori from "../images/instruktori.jpg";
 import { FaCalendarAlt } from "react-icons/fa";
 import "./Nastanisec.css";
-import Calendar from './pages/Calendar';
 import { useHistory } from "react-router-dom";
 
 function Nastanisec() {

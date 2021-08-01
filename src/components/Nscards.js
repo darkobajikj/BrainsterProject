@@ -1,15 +1,6 @@
 import React, { Component } from "react";
 import {
   Card,
-  CardDeck,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  CardImg,
-  CardText,
-  CardFooter,
-  CardColumns,
-  Button,
   CardGroup,
   Container,
   Row,
